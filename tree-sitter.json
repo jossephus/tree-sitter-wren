@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "wren",
+      "camelcase": "Wren",
+      "title": "Wren",
+      "scope": "source.wren",
+      "file-types": [
+        "wren"
+      ],
+      "injection-regex": "^wren$",
+      "class-name": "TreeSitterWren"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree sitter parser for wren.io ",
+    "authors": [
+      {
+        "name": "jossephus",
+        "email": "jossephustuemay@gmail.com",
+        "url": "https://github.com/jossephus"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/jossephus/wren-lsp"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
