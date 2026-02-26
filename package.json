@@ -2,7 +2,7 @@
   "name": "tree-sitter-wren",
   "version": "0.1.0",
   "description": "Tree sitter parser for wren.io ",
-  "repository": "https://github.com/jossephus/wren-lsp",
+  "repository": "https://github.com/jossephus/tree-sitter-wren",
   "license": "MIT",
   "author": {
     "name": "jossephus",

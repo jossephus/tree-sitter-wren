@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 keywords = ["incremental", "parsing", "tree-sitter", "wren"]
 categories = ["parser-implementations", "parsing", "text-editors"]
-repository = "https://github.com/jossephus/wren-lsp"
+repository = "https://github.com/jossephus/tree-sitter-wren"
 edition = "2021"
 autoexamples = false
 
