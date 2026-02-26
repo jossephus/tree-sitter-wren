@@ -6,6 +6,7 @@ Cargo.lock
 build/
 prebuilds/
 node_modules/
+.npm/
 package-lock.json
 
 # Swift artifacts
