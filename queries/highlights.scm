@@ -12,13 +12,14 @@
   "else"
   "while"
   "return"
-  "break"
-  "continue"
   "is"
   "as"
-  "this"
   "super"
 ] @keyword
+
+(this) @keyword
+(break_statement) @keyword
+(continue_statement) @keyword
 
 ; Literals
 (string) @string
